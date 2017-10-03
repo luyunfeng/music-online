@@ -1,0 +1,17 @@
+/.settings/
+/target/
+/bin/
+/logs/
+.metadata/
+.project
+.classpath
+*.zip
+*.rar
+*.via
+*.tmp
+*.err
+.recommenders/
+*.iml
+.idea/
+.DS_Store
+
