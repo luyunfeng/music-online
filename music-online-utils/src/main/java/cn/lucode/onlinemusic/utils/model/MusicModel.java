@@ -1,4 +1,4 @@
-package cn.lucode.onlinemusic.service.model;
+package cn.lucode.onlinemusic.utils.model;
 
 import java.io.Serializable;
 
@@ -7,9 +7,18 @@ import java.io.Serializable;
  */
 public class MusicModel implements Serializable {
     private static final long serialVersionUID = 5140312147222188677L;
+    private String id;
     private String title;
     private String url;
     private String songer;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getSonger() {
         return songer;

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by yunfeng.lu on 2017/9/18.
  */
 @RestController
-@RequestMapping("health")
+@RequestMapping("/health")
 public class HealthController {
 
     @GetMapping("/check")

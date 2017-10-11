@@ -2,8 +2,8 @@ package cn.lucode.onlinemusic.service;
 
 import cn.lucode.exception.HttpProcessException;
 import cn.lucode.onlinemusic.service.api.ICrawlManagerService;
-import cn.lucode.onlinemusic.service.model.MusicModel;
 import cn.lucode.onlinemusic.utils.baidu.BaiduMusicUtil;
+import cn.lucode.onlinemusic.utils.model.MusicModel;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
