@@ -4,6 +4,7 @@ import cn.lucode.onlinemusic.utils.enums.RedisKey;
 import cn.lucode.onlinemusic.utils.model.MusicModel;
 import cn.lucode.redis.service.IRedisOperation;
 import cn.lucode.util.JsonUtil;
+import cn.lucode.util.LogUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +21,7 @@ public class SongCacheUtil {
     @Autowired
     private IRedisOperation redisOperation;
 
-    public static final Long TIME_OUT_DAY = 24 * 60 * 60L;
+    public static final Long TIME_OUT_DAY = 60L;
 
     public void saveModel(MusicModel musicModel){
         redisOperation.setValue(RedisKey.KEY_BAIDU.getCode()

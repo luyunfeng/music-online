@@ -47,7 +47,8 @@ public class MusicModel implements Serializable {
     @Override
     public String toString() {
         return "MusicModel{" +
-                "title='" + title + '\'' +
+                "id='" + id + '\'' +
+                ", title='" + title + '\'' +
                 ", url='" + url + '\'' +
                 ", songer='" + songer + '\'' +
                 '}';
