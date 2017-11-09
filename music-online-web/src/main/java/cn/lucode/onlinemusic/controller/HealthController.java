@@ -16,7 +16,7 @@ public class HealthController {
     private static final Logger LOGGER = LoggerFactory.getLogger(HealthController.class);
     @GetMapping("/check")
     public String health(){
-        return "Ok";
+        return "Ok卧槽";
     }
 
 }

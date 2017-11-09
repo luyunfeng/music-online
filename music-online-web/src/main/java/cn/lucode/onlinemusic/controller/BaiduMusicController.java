@@ -22,13 +22,14 @@ public class BaiduMusicController {
     @Autowired
     ICrawlManagerService crawlManagerService;
     private static final Logger LOGGER = LoggerFactory.getLogger(BaiduMusicController.class);
+
     @GetMapping("/start")
-    public Object start(@RequestParam(value = "url")String url){
+    public Object start(@RequestParam(value = "url") String url) {
         try {
             return crawlManagerService.getBaiduMusic(url);
         } catch (HttpProcessException e) {
             return "false";
-        } catch (Exception e){
+        } catch (Exception e) {
             return "false";
         }
     }
