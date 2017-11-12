@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MarkdownController {
     @GetMapping("/test.md")
     public String start() {
-
         return "# Editor.md\n" +
                 "\n" +
                 "![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)\n" +

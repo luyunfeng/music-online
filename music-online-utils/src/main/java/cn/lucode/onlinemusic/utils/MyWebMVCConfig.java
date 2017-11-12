@@ -19,8 +19,6 @@ import java.util.List;
 @Configuration
 public class MyWebMVCConfig extends WebMvcConfigurerAdapter {
     /**
-     * 配置swagger 映射路径
-     *
      * @param registry
      */
     @Override
@@ -28,7 +26,7 @@ public class MyWebMVCConfig extends WebMvcConfigurerAdapter {
         registry.addResourceHandler("demo.html")
                 .addResourceLocations("classpath:markdown/demo/");
         registry.addResourceHandler("/markdown/**")
-                .addResourceLocations("classpath:/markdown/");
+                .addResourceLocations("classpath:markdown/");
 
     }
     @Override
