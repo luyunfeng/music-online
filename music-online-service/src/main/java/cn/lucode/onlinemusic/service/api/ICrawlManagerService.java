@@ -1,6 +1,6 @@
 package cn.lucode.onlinemusic.service.api;
 
-import cn.lucode.exception.HttpProcessException;
+import cn.lucode.fastdev.exception.HttpProcessException;
 
 import java.util.Map;
 

@@ -1,8 +1,8 @@
 package cn.lucode.onlinemusic.controller;
 
-import cn.lucode.exception.HttpProcessException;
+import cn.lucode.fastdev.exception.HttpProcessException;
 import cn.lucode.onlinemusic.service.api.ICrawlManagerService;
-import cn.lucode.util.LogUtil;
+import cn.lucode.fastdev.util.LogUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

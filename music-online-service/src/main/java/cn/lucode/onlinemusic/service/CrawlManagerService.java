@@ -1,14 +1,14 @@
 package cn.lucode.onlinemusic.service;
 
-import cn.lucode.annotation.LogAuto;
-import cn.lucode.exception.HttpProcessException;
+import cn.lucode.fastdev.annotation.LogAuto;
+import cn.lucode.fastdev.exception.HttpProcessException;
 import cn.lucode.onlinemusic.service.api.ICrawlManagerService;
 import cn.lucode.onlinemusic.utils.AppCode;
 import cn.lucode.onlinemusic.utils.baidu.BaiduMusicUtil;
 import cn.lucode.onlinemusic.utils.cache.SongCacheUtil;
 import cn.lucode.onlinemusic.utils.model.MusicModel;
-import cn.lucode.util.LogUtil;
-import cn.lucode.util.UUIDGenerator;
+import cn.lucode.fastdev.util.LogUtil;
+import cn.lucode.fastdev.util.UUIDGenerator;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

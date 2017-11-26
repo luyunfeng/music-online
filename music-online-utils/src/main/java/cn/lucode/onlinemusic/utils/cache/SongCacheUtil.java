@@ -2,9 +2,9 @@ package cn.lucode.onlinemusic.utils.cache;
 
 import cn.lucode.onlinemusic.utils.enums.RedisKey;
 import cn.lucode.onlinemusic.utils.model.MusicModel;
-import cn.lucode.redis.service.IRedisOperation;
-import cn.lucode.util.JsonUtil;
-import cn.lucode.util.LogUtil;
+import cn.lucode.fastdev.redis.service.IRedisOperation;
+import cn.lucode.fastdev.util.JsonUtil;
+import cn.lucode.fastdev.util.LogUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
